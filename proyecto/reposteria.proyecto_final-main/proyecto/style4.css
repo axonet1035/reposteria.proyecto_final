@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.contacto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contacto h2 {
+    color: #007bff;
+}
+
+.contacto p {
+    color: #666;
+}
+.boton_regresar {
+    position: fixed; 
+    top: 20px; 
+    left: 20px; 
+    z-index: 1000; 
+}
+
+.boton_regresar ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.boton_regresar li a {
+    display: block;
+    background-color: #3498db; 
+    color: white; 
+    padding: 10px 15px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s;
+}
+
+.boton_regresar li a:hover {
+    background-color: #2980b9; 
+}
